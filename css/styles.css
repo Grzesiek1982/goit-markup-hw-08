@@ -382,3 +382,14 @@ header {
 .lorem {
   padding: 0px;
 }
+
+.clients {
+  box-sizing: border-box;
+  /* position: absolute; */
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
