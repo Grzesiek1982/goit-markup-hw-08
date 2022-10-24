@@ -171,7 +171,10 @@ h2 {
 }
 
 .slider {
-  background-color: #2f303a;
+  background: rgba(47, 48, 58, 0.4);
+  /* background-position: 100% 100%;
+  background-size: contain; */
+  background-image: url(../images/bg_slider.jpg);
   height: 600px;
   display: flex;
   align-items: center;
@@ -299,12 +302,20 @@ address {
 .button-portfolio:hover {
   background: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work {
   background: #ffffff;
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
+}
+
+.work:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .name-project {
@@ -455,4 +466,14 @@ header {
 
 .team-social-ico:hover {
   background-color: #2196f3;
+}
+
+.bg-lorem {
+  box-sizing: border-box;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  align-items: center;
 }
