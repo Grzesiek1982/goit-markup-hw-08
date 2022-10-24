@@ -138,6 +138,7 @@ h2 {
   gap: 50px;
   justify-content: space-between;
   text-decoration: none;
+  align-items: center;
 }
 
 .menu-contact a {
@@ -392,4 +393,22 @@ header {
   top: 2493px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.header-footer {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-ico-wrapper {
+  display: flex;
+  gap: 50px;
+  color: blue;
 }
