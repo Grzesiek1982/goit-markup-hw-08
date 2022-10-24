@@ -355,6 +355,11 @@ address {
   /* margin-bottom: 100px; */
 }
 
+.clients-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team {
   background: #f5f4fa;
   /* padding-top: 90px;
