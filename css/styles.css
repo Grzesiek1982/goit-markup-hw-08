@@ -434,3 +434,19 @@ header {
   font-size: 14px;
   font-weight: 700;
 }
+
+.team-ico-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.team-social-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.team-social-ico:hover {
+  background-color: #2196f3;
+}
