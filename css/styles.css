@@ -438,7 +438,7 @@ header {
 
 .team-ico-wrapper {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   justify-content: center;
 }
 
@@ -450,6 +450,7 @@ header {
   height: 44px;
   width: 44px;
   border-radius: 50%;
+  gap: 5px;
 }
 
 .team-social-ico:hover {
