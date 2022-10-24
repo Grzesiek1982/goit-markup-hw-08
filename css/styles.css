@@ -141,16 +141,22 @@ h2 {
   align-items: center;
 }
 
+.icon {
+  stroke: #000000;
+}
+
+.icon:hover {
+  stroke: #2196f3;
+}
+
 .menu-contact a {
   text-decoration: none;
   color: #000000;
-  stroke: #000000;
 }
 
 .menu-contact a:hover {
   text-decoration: none;
   color: #2196f3;
-  stroke: #2196f3;
 }
 
 .menu-footer {
