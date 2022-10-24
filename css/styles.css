@@ -358,6 +358,7 @@ address {
 .clients-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .team {
@@ -398,6 +399,7 @@ header {
   top: 2493px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  align-items: center;
 }
 
 .header-footer {
