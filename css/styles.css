@@ -172,9 +172,10 @@ h2 {
 
 .slider {
   background: rgba(47, 48, 58, 0.4);
-  /* background-position: 100% 100%;
-  background-size: contain; */
-  background-image: url(../images/bg_slider.jpg);
+  background-image: linear-gradient(to bottom, #000000 15%, #292929 40%);
+  background: url(../images/bg_slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 600px;
   display: flex;
   align-items: center;
