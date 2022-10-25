@@ -124,6 +124,7 @@ h2 {
 .menu a:hover {
   text-decoration: none;
   color: #2196f3;
+  fill: var(--color3, red);
 }
 
 .menu-contact {
