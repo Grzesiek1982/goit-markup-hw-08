@@ -124,7 +124,9 @@ h2 {
 .menu a:hover {
   text-decoration: none;
   color: #2196f3;
-  fill: var(--color3, red);
+  --color2: red;
+  --color3: red;
+  --color4: red;
 }
 
 .menu-contact {
@@ -461,7 +463,9 @@ header {
 
 .footer-social-ico:hover {
   background-color: #2196f3;
-  fill: var(--color3, red);
+  --color2: red;
+  --color3: red;
+  --color4: red;
 }
 
 .header-footer {
