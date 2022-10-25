@@ -425,7 +425,8 @@ header {
 }
 
 .clients:hover {
-  fill: #2196f3;
+  /* fill: #2196f3; */
+  --color2: #2196f3;
   cursor: pointer;
   border: 1px solid #2196f3;
 }
