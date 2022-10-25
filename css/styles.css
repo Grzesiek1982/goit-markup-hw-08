@@ -460,6 +460,7 @@ header {
 
 .footer-social-ico:hover {
   background-color: #2196f3;
+  fill: var(--color3, red);
 }
 
 .header-footer {
