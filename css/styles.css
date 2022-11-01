@@ -453,12 +453,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: fill, border;
+  transition-duration: 750ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover {
-  --color3: #2196f3;
+  /* --color3: #2196f3; */
   cursor: pointer;
   border: 1px solid #2196f3;
+  fill: red;
 }
 
 .footer-wrapper {
