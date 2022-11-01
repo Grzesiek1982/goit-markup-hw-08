@@ -527,13 +527,14 @@ header {
   border-radius: 50%;
   gap: 5px;
   fill: #afb1b8;
-  transition-property: fill;
+  transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-ico:hover {
   background-color: #2196f3;
+  fill: #fff;
 }
 
 .bg-lorem {
