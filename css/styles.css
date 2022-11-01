@@ -540,5 +540,36 @@ header {
 }
 
 .is-hidden {
-  transform: translateX(-100%);
+  transform: scale(0%);
+}
+
+.photo-portfolio-box {
+  width: 370px;
+  height: 294px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-portfolio-overlay {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+}
+
+.photo-portfolio-overlay-text {
+  font-family: "Roboto";
+  font-style: none;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 49px 45px 49px 24px;
+}
+
+.photo-portfolio-box:hover .photo-portfolio-overlay {
+  transform: translate(0%, -100%);
+  transition: 250ms;
+  background: rgba(33, 150, 243, 0.9);
+  height: 100%;
 }
