@@ -529,6 +529,10 @@ header {
   fill: blue;
 }
 
+.icon-color {
+  fill: red;
+}
+
 .bg-lorem {
   box-sizing: border-box;
   width: 270px;
