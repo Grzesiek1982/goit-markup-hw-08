@@ -573,3 +573,28 @@ header {
   background: rgba(33, 150, 243, 0.9);
   height: 100%;
 }
+
+.x3 {
+  position: relative;
+}
+
+.x3-box {
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8) 0;
+  position: absolute;
+  bottom: 4px;
+  padding: 27px 90px;
+}
+
+.x3-box-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
