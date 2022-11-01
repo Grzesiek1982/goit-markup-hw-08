@@ -513,6 +513,7 @@ header {
   width: 44px;
   border-radius: 50%;
   gap: 5px;
+  fill: red;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -520,7 +521,8 @@ header {
 
 .team-social-ico:hover {
   background-color: #2196f3;
-  --color3: white;
+  /* --color3: white; */
+  fill: blue;
 }
 
 .bg-lorem {
