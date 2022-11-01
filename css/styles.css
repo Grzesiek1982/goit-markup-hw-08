@@ -517,7 +517,7 @@ header {
   width: 44px;
   border-radius: 50%;
   gap: 5px;
-
+  fill: red;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -530,6 +530,7 @@ header {
 
 .icon-color {
   fill: red;
+  background-color: #000000;
 }
 
 .bg-lorem {
