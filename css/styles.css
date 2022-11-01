@@ -134,7 +134,7 @@ h2 {
   position: relative;
 }
 
-/* .active::after {
+.active::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -142,7 +142,7 @@ h2 {
   background-color: #2196f3;
   bottom: -42px;
   left: 0px;
-} */
+}
 
 .menu-contact {
   font-style: normal;
