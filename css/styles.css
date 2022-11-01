@@ -533,11 +533,6 @@ header {
   background-color: #000000;
 }
 
-.icon-color:hover {
-  fill: blue;
-  background-color: violet;
-}
-
 .bg-lorem {
   box-sizing: border-box;
   width: 270px;
