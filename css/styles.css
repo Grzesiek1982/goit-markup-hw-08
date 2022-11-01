@@ -449,20 +449,26 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;
-  fill: #000000;
+  /* fill: #000000; */
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: fill, border;
+  transition-property: border;
   transition-duration: 750ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover {
-  /* --color3: #2196f3; */
   cursor: pointer;
   border: 1px solid #2196f3;
-  fill: red;
+}
+
+.ico-clients {
+  fill: #afb1b8;
+}
+
+.ico-clients:hover {
+  fill: #2196f3;
 }
 
 .footer-wrapper {
@@ -485,6 +491,7 @@ header {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
+  fill: white;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -492,7 +499,6 @@ header {
 
 .footer-social-ico:hover {
   background-color: #2196f3;
-  --color3: white;
 }
 
 .header-footer {
@@ -525,12 +531,6 @@ header {
 
 .team-social-ico:hover {
   background-color: #2196f3;
-  /* --color3: white; */
-}
-
-.icon-color {
-  fill: red;
-  background-color: #000000;
 }
 
 .bg-lorem {
