@@ -465,6 +465,9 @@ header {
 
 .ico-clients {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 750ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ico-clients:hover {
