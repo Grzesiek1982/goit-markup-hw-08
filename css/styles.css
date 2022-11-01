@@ -528,7 +528,7 @@ header {
   gap: 5px;
   fill: #afb1b8;
   transition-property: background-color, fill;
-  transition-duration: 250ms;
+  transition-duration: 950ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
