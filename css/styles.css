@@ -673,6 +673,7 @@ h3 {
 .fieldset {
   display: flex;
   position: relative;
+  align-items: center;
 }
 
 .icon-form {
@@ -682,4 +683,10 @@ h3 {
 
 .form-contact {
   margin-top: 50px;
+}
+
+.input-form {
+  border: 0;
+  background-color: #ffffff;
+  font-size: 16px;
 }
