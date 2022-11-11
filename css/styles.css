@@ -670,6 +670,10 @@ h3 {
   top: -18px;
 }
 
+.fieldset:has(input:focus) {
+  border-color: #2196f3;
+}
+
 .fieldset {
   display: flex;
   position: relative;
@@ -698,5 +702,8 @@ h3 {
 
 .input-form:focus {
   outline: 0;
-  height: 100%;
+}
+
+.fieldset:has(input:focus) .input-form {
+  fill: #2196f3;
 }
