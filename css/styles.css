@@ -657,7 +657,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .label-form {
@@ -667,13 +667,16 @@ h3 {
   letter-spacing: 0.01em;
   color: #757575;
   position: absolute;
-  top: -16px;
+  top: -18px;
 }
 
 .fieldset {
   display: flex;
   position: relative;
   align-items: center;
+  padding-block: 14px 15px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .icon-form {
@@ -682,11 +685,18 @@ h3 {
 }
 
 .form-contact {
-  margin-top: 50px;
+  margin-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .input-form {
   border: 0;
   background-color: #ffffff;
   font-size: 16px;
+}
+
+.input-form:focus {
+  outline: 0;
+  height: 100%;
 }
