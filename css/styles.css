@@ -567,8 +567,8 @@ header {
 }
 
 .modal {
-  width: 400px;
-  height: 400px;
+  width: 528px;
+  height: 581px;
   background-color: #ffffff;
   margin: auto;
   padding: 10px;
@@ -648,4 +648,14 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 40px;
 }
