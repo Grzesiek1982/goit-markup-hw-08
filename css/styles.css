@@ -687,7 +687,7 @@ h3 {
   width: 12px;
   height: 12px;
   fill: #000000;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .form-contact {
@@ -764,5 +764,4 @@ h3 {
   width: 24px;
   height: 24px;
   fill: #ffffff;
-  /* padding: 15px; */
 }
