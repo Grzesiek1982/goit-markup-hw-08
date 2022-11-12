@@ -759,3 +759,10 @@ h3 {
   padding-left: 42px;
   padding-right: 76px;
 }
+
+.icon-form-newsletter {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  padding: 15px;
+}
