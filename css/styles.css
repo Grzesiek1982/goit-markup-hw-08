@@ -681,6 +681,7 @@ h3 {
   padding-block: 14px 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-bottom: 38px;
 }
 
 .icon-form {
@@ -764,4 +765,14 @@ h3 {
   width: 24px;
   height: 24px;
   fill: #ffffff;
+}
+
+.text-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
