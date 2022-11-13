@@ -690,7 +690,8 @@ h3 {
   width: 12px;
   height: 12px;
   fill: #000000;
-  /* padding: 15px; */
+  position: absolute;
+  right: 20px;
 }
 
 .form-contact {
