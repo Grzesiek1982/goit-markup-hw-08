@@ -679,7 +679,7 @@ h3 {
   align-items: center;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   height: 40px;
   padding-left: 30px;
 }
@@ -787,6 +787,9 @@ h3 {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 .button-modal {
@@ -804,16 +807,36 @@ h3 {
   letter-spacing: 0.06em;
   color: #ffffff;
   border: 0px;
-  padding: 10px 42px;
+  padding: 10px 70px;
   cursor: pointer;
   position: relative;
+  margin-top: 30px;
 }
 
-/* .input-checkbox {
+.txt-checkbox {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-} */
+}
+
+.txt-checkbox a {
+  color: #2196f3;
+}
+
+.fieldset-checkbox {
+  border: 0;
+}
+
+.fieldset-textarea {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 5px;
+  height: 120px;
+  padding-left: 30px;
+}
