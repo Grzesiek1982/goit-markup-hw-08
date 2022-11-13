@@ -689,12 +689,12 @@ h3 {
 .icon-form {
   width: 12px;
   height: 12px;
-  fill: red;
+  fill: #212121;
   position: absolute;
   left: 10px;
 }
 
-.icon-form:focus {
+.icon-form:focus-within {
   fill: #2196f3;
 }
 
