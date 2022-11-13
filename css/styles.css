@@ -673,6 +673,10 @@ h3 {
   left: 0px;
 }
 
+.label-form:focus-within .icon-form {
+  fill: red;
+}
+
 .fieldset:has(input:focus) {
   border-color: #2196f3;
 }
@@ -694,10 +698,6 @@ h3 {
   fill: #212121;
   position: absolute;
   left: 10px;
-}
-
-.icon-form:focus-within {
-  fill: #2196f3;
 }
 
 .form-contact {
