@@ -484,6 +484,8 @@ header {
 .footer-wrapper {
   display: flex;
   gap: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-ico-wrapper {
@@ -719,6 +721,7 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  width: 358px;
 }
 
 .input-form-footer {
@@ -759,12 +762,15 @@ h3 {
   margin-left: 12px;
   padding-left: 42px;
   padding-right: 76px;
+  position: relative;
 }
 
 .icon-form-newsletter {
   width: 24px;
   height: 24px;
   fill: #ffffff;
+  position: relative;
+  left: 50px;
 }
 
 .text-placeholder {
