@@ -685,11 +685,11 @@ h3 {
 }
 
 .fieldset:focus-within {
-  border: 1px solid red;
+  border: 1px solid #2196f3;
 }
 
 .fieldset:focus-within svg {
-  fill: red;
+  fill: #2196f3;
 }
 
 .icon-form {
