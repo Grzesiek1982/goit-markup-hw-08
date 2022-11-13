@@ -850,10 +850,11 @@ h3 {
   top: 2px;
 }
 
-.icon-check {
+.icon-check:checked {
   width: 11px;
   height: 8px;
-  fill: #212121;
+  fill: red;
   position: absolute;
-  left: 10px;
+  left: 52px;
+  top: 446px;
 }
