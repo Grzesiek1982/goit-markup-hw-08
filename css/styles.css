@@ -673,12 +673,9 @@ h3 {
   left: 0px;
 }
 
-.label-form:focus-within .icon-form {
+.label-form:focus-within svg {
   fill: red;
-}
-
-.fieldset:has(input:focus) {
-  border-color: #2196f3;
+  color: red;
 }
 
 .fieldset {
