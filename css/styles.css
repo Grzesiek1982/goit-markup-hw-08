@@ -716,9 +716,25 @@ h3 {
   font-size: 16px;
   width: 100%;
   padding-right: 20px;
+  resize: none;
+  height: 100%;
 }
 
 .input-form:focus {
+  outline: 0;
+}
+
+.input-form-textarea {
+  border: 0;
+  background-color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  padding-right: 20px;
+  resize: none;
+  height: 100%;
+}
+
+.input-form-textarea:focus {
   outline: 0;
 }
 
@@ -791,9 +807,9 @@ h3 {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  position: absolute;
+  /* position: absolute;
   top: 5px;
-  left: 5px;
+  left: 5px; */
 }
 
 .button-modal {
@@ -835,14 +851,14 @@ h3 {
 }
 
 .fieldset-textarea {
-  display: flex;
-  position: relative;
+  /* display: flex; */
   align-items: center;
+  position: relative;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 5px;
   height: 120px;
-  padding-left: 30px;
+  padding: 10px;
 }
 
 /* .bg-checkbox {
