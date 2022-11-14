@@ -795,7 +795,7 @@ h3 {
   width: 24px;
   height: 24px;
   fill: #ffffff;
-  position: relative;
+  position: absolute;
   left: -65px;
   cursor: pointer;
 }
