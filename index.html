@@ -90,12 +90,21 @@
                 <label class="label-form">Komentarz</label>
                 <textarea class="input-form-textarea text-placeholder" name="feedback" placeholder="Wprowadź tekst"></textarea>
               </fieldset>
-              <fieldset class="fieldset-checkbox">
-                <label>
+              <label class="legal-checkbox wrapper-legal">
+                <input type="checkbox" id="legal">
+                <!-- Oświadczam iż akceptuję Regulamin i Politykę Prywatności. -->
+                <span class="checkmark"></span>
+              </label>
+              <!-- <fieldset class="fieldset-checkbox">
+                <label class="legal-checkbox">
                   <input class="input-checkbox" type="checkbox" name="private"/>
+                  <span class="checkmark"><svg class="icon-form-checkbox">
+                    <use href="./images/icons.svg#icon-phone-old"></use>
+                   </svg> </span>
+                    
                   <span class="txt-checkbox">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</span>
                 </label>
-              </fieldset>
+              </fieldset> -->
               <button class="button-modal" type="submit" >Wyślij</button>
              </form>
           </div>
