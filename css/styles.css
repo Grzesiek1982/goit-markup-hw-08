@@ -897,7 +897,7 @@ h3 {
 }
 
 input:checked + span svg {
-  fill: #ffffff;
+  fill: red;
 }
 
 /* .icon-form-checkbox:checked {
