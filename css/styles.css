@@ -874,7 +874,7 @@ h3 {
   opacity: 0;
 }
 
-.legal-checkbox {
+.legal-checkbox .checkmark {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -884,7 +884,7 @@ h3 {
 }
 
 .icon-form-checkbox {
-  fill: red;
+  fill: green;
   width: 11px;
   height: 8px;
   position: absolute;
@@ -892,13 +892,17 @@ h3 {
   left: 3px;
 }
 
-.checkmark:checked {
+.icon-form-checkbox::after {
   fill: blue;
   width: 11px;
   height: 8px;
   position: absolute;
   top: 5px;
   left: 3px;
+}
+
+.legal-checkbox input:checked .icon-form-checkbox::after {
+  fill: red;
 }
 
 /* .checkmark::after {
