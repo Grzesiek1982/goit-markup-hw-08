@@ -874,26 +874,17 @@ h3 {
   opacity: 0;
 }
 
-.legal-checkbox .checkmark {
+/* .legal-checkbox .checkmark {
   position: absolute;
   width: 20px;
   height: 20px;
   border: 2px solid #212121;
   left: 0;
   border-radius: 3px;
-}
-
-.checkmark::after {
-  content: url(../images/icons.svg#icon-check);
-  display: block;
-  width: 4px;
-  height: 12px;
-  fill: red;
-  /* border: 1px solid red; */
-}
+} */
 
 .icon-form-checkbox {
-  fill: #2196f3;
+  fill: red;
   width: 11px;
   height: 8px;
   position: absolute;
@@ -909,6 +900,15 @@ h3 {
   top: 5px;
   left: 3px;
 }
+
+/* .checkmark::after {
+  content: url(../images/icons.svg#icon-check);
+  display: block;
+  width: 4px;
+  height: 12px;
+  fill: red;
+  border: 1px solid red;
+} */
 
 /* .legal-checkbox input:checked .checkmark::after {
   ...;
