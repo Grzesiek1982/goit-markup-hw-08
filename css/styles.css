@@ -900,6 +900,11 @@ input:checked + span svg {
   fill: red;
 }
 
+input:checked + .checkmark {
+  background-color: #2196f3;
+  border: 0;
+}
+
 /* .icon-form-checkbox:checked {
   fill: blue;
   width: 11px;
