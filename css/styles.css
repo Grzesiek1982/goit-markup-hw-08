@@ -883,14 +883,14 @@ h3 {
   border-radius: 3px;
 }
 
-/* .icon-form-checkbox {
+.icon-form-checkbox {
   fill: green;
   width: 11px;
   height: 8px;
   position: absolute;
   top: 5px;
   left: 3px;
-} */
+}
 
 .icon-form-checkbox::after {
   fill: blue;
@@ -904,16 +904,3 @@ h3 {
 .legal-checkbox input:checked .icon-form-checkbox::after {
   fill: black;
 }
-
-/* .checkmark::after {
-  content: url(../images/icons.svg#icon-check);
-  display: block;
-  width: 4px;
-  height: 12px;
-  fill: red;
-  border: 1px solid red;
-} */
-
-/* .legal-checkbox input:checked .checkmark::after {
-  ...;
-} */
