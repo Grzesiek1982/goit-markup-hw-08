@@ -885,6 +885,8 @@ h3 {
   border: 2px solid #212121;
   left: 0;
   border-radius: 3px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-form-checkbox {
@@ -892,12 +894,14 @@ h3 {
   width: 11px;
   height: 8px;
   position: absolute;
-  top: 5px;
-  left: 3px;
+  top: 6px;
+  left: 5px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input:checked + span svg {
-  fill: red;
+  fill: white;
 }
 
 input:checked + .checkmark {
