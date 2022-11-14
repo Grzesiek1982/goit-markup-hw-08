@@ -874,14 +874,14 @@ h3 {
   opacity: 0;
 }
 
-/* .legal-checkbox .checkmark {
+.legal-checkbox {
   position: absolute;
   width: 20px;
   height: 20px;
   border: 2px solid #212121;
   left: 0;
   border-radius: 3px;
-} */
+}
 
 .icon-form-checkbox {
   fill: red;
