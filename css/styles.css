@@ -902,7 +902,7 @@ h3 {
 }
 
 .legal-checkbox input:checked .icon-form-checkbox::after {
-  fill: red;
+  fill: black;
 }
 
 /* .checkmark::after {
