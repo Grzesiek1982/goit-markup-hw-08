@@ -897,7 +897,12 @@ h3 {
 }
 
 input:checked + span svg {
-  fill: #2196f3;
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+
+input:checked + .legal-checkbox .checkmark {
+  background-color: #2196f3;
 }
 
 /* .icon-form-checkbox:checked {
