@@ -683,6 +683,7 @@ h3 {
   height: 40px;
   padding-left: 30px;
   padding-right: 20px;
+  transition: 950ms;
 }
 
 .fieldset:focus-within {
@@ -716,7 +717,6 @@ h3 {
   background-color: #ffffff;
   font-size: 16px;
   width: 100%;
-  /* padding-right: 15px; */
   height: 100%;
 }
 
@@ -738,7 +738,6 @@ h3 {
 }
 
 .fieldset-footer {
-  /* display: flex; */
   position: relative;
   align-items: center;
   padding-block: 14px 15px;
@@ -859,6 +858,7 @@ h3 {
   margin-bottom: 5px;
   height: 120px;
   padding: 12px 16px;
+  transition: 950ms;
 }
 
 .legal-checkbox {
@@ -892,7 +892,7 @@ h3 {
   left: 3px;
 }
 
-.icon-form-checkbox::after {
+.icon-form-checkbox:checked {
   fill: blue;
   width: 11px;
   height: 8px;
@@ -901,6 +901,6 @@ h3 {
   left: 3px;
 }
 
-.legal-checkbox input:checked .icon-form-checkbox::after {
+/* .legal-checkbox input:checked .icon-form-checkbox::after {
   fill: black;
-}
+} */
