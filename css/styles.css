@@ -704,6 +704,7 @@ h3 {
   fill: #212121;
   position: absolute;
   left: 10px;
+  transition: 950ms;
 }
 
 .form-contact {
