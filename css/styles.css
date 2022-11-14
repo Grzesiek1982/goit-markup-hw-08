@@ -829,7 +829,8 @@ h3 {
   padding: 10px 70px;
   cursor: pointer;
   position: relative;
-  margin-top: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 .txt-checkbox {
@@ -847,6 +848,7 @@ h3 {
 
 .fieldset-checkbox {
   border: 0;
+  margin-bottom: 30px;
 }
 
 .fieldset-textarea {
