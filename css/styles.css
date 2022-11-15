@@ -607,8 +607,10 @@ header {
   position: absolute;
   width: 370px;
   height: 294px;
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(33, 150, 243, 0.9);
 }
 
 .photo-portfolio-overlay-text {
@@ -624,7 +626,6 @@ header {
 
 .photo-portfolio-hover:hover .photo-portfolio-overlay {
   transform: translate(0%, -100%);
-  background: rgba(33, 150, 243, 0.9);
   height: 100%;
 }
 
@@ -909,16 +910,3 @@ input:checked + .checkmark {
   background-color: #2196f3;
   border: 0;
 }
-
-/* .icon-form-checkbox:checked {
-  fill: blue;
-  width: 11px;
-  height: 8px;
-  position: absolute;
-  top: 5px;
-  left: 3px;
-} */
-
-/* .legal-checkbox input:checked .icon-form-checkbox::after {
-  fill: black;
-} */
