@@ -1,0 +1,49 @@
+// .offer__image {
+//     ...
+// }
+
+.offer__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.offer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.offer__box {
+  box-sizing: border-box;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  align-items: center;
+  padding: 25px 100px;
+}
+
+.offer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.offer__list {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin-top: 100px;
+}

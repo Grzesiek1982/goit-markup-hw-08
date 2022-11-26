@@ -1,0 +1,28 @@
+.header__page {
+  border-bottom: #ececec 1px solid;
+  height: 100px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.header__nav--ico {
+  margin-left: 10px;
+}

@@ -1,0 +1,68 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --secondary-color: #212121;
+  --third-color: #fff;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.logo--right {
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--main-color);
+  }
+}
