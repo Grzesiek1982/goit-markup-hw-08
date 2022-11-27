@@ -17,26 +17,39 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <header class="header__page">
       <div class="header__nav">
-        <div class="logo" href="www.google.pl">
-          <div>Web</div>
-          <div class="logo logo--right">Studio</div>
+        <div class="header__item">
+          <div class="logo" href="./index.html">
+            <div>Web</div>
+            <div class="logo logo--header">Studio</div>
+          </div>
+          <div>
+            <ul class="header__menu">
+              <li class="header__active"><a href="./index.html">Agencja</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </div>
         </div>
         <div>
           <ul class="header__menu">
-            <li><a href="#">Agencja</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul class="header__menu">
-            <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+            <li class="header__hover">
+              <a href="mailto:info@example.com"
+                ><svg class="header__ico" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg
+                >info@example.com</a
+              >
             </li>
-            <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+            <li class="header__hover">
+              <a href="tel:+48 111 111 111"
+                ><svg class="header__ico" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use></svg
+                >+48 111 111 111</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -47,6 +60,82 @@
         <button type="button" class="button" data-modal-open>
           Zamów usługę
         </button>
+        <div class="modal__backdrop is-hidden" data-modal>
+          <div class="modal__box">
+            <button class="button__close" data-modal-close>
+              <span>X</span>
+            </button>
+            <h3>Zostaw swoje dane w formularzu poniżej</h3>
+            <form class="modal__formContact">
+              <fieldset class="modal__fieldset">
+                <label class="modal__labelForm" for="name">Imię</label>
+                <svg class="modal__iconForm">
+                  <use href="./images/icons.svg#icon-people"></use>
+                </svg>
+                <input
+                  class="modal__inputForm"
+                  name="name"
+                  type="text"
+                  id="name"
+                />
+              </fieldset>
+              <fieldset class="modal__fieldset">
+                <label class="modal__labelForm" for="tel">Telefon</label>
+                <svg class="modal__iconForm">
+                  <use href="./images/icons.svg#icon-phone-old"></use>
+                </svg>
+                <input
+                  class="modal__inputForm"
+                  name="tel"
+                  type="tel"
+                  id="tel"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                />
+              </fieldset>
+              <fieldset class="modal__fieldset">
+                <label class="modal__labelForm" for="email">E-mail</label>
+                <svg class="modal__iconForm">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                <input
+                  class="modal__inputForm"
+                  name="email"
+                  type="email"
+                  id="email"
+                />
+              </fieldset>
+              <fieldset class="modal__fieldset-textarea">
+                <label class="modal__labelForm" for="feedback">Komentarz</label>
+                <textarea
+                  class="modal__inputFormTextarea modal__textPlaceholder"
+                  name="feedback"
+                  placeholder="Wprowadź tekst"
+                  id="feedback"
+                ></textarea>
+              </fieldset>
+              <fieldset class="modal__fieldsetCheckbox">
+                <label class="modal__legalCheckbox">
+                  <input
+                    class="input-checkbox"
+                    type="checkbox"
+                    name="private"
+                  />
+                  <span class="modal__checkmark"
+                    ><svg class="modal__icon">
+                      <use href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                  </span>
+
+                  <span class="modal__txtCheckbox"
+                    >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
+                    <a href="#">Politykę Prywatności</a>.</span
+                  >
+                </label>
+              </fieldset>
+              <button class="button button--modal" type="submit">Wyślij</button>
+            </form>
+          </div>
+        </div>
       </div>
       <section class="offer">
         <div>
@@ -282,32 +371,32 @@
         <div>
           <h2>Nasi klienci</h2>
           <ul class="clients__list">
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-01"></use>
               </svg>
             </li>
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-02"></use>
               </svg>
             </li>
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-03"></use>
               </svg>
             </li>
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-04"></use>
               </svg>
             </li>
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-05"></use>
               </svg>
             </li>
-            <li class="clients__ico">
+            <li class="clients__border clients__ico">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo-client-06"></use>
               </svg>
@@ -318,11 +407,73 @@
     </main>
 
     <footer class="footer__page">
-      <div class="logo" href="www.google.pl">
-        <div>Web</div>
-        <div class="logo logo--right">Studio</div>
+      <div class="footer__wraper">
+        <div>
+          <div class="logo" href="./index.html">
+            <div>Web</div>
+            <div class="logo logo--footer">Studio</div>
+          </div>
+          <address class="footer__address">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <ul class="footer__contact">
+            <li>
+              <a class="footer__contact" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer__contact" href="tel:+48 111 111 111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <span class="footer__header"> Dołącz do nas </span>
+          <ul class="footer__social">
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <span class="footer__header"> Zapisz się do newslettera </span>
+          <form class="footer__form">
+            <fieldset class="footer__fieldset">
+              <input
+                class="footer__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </fieldset>
+            <button class="button button--footer" type="submit">
+              Zapisz się<svg class="footer__buttonIcon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>

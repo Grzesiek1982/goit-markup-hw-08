@@ -1,5 +1,7 @@
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team__list {
@@ -61,4 +63,12 @@
   border-radius: 50%;
   gap: 5px;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    fill: var(--third-color);
+    background-color: var(--main-color);
+  }
 }

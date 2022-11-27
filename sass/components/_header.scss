@@ -21,9 +21,28 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  align-items: center;
   color: var(--secondary-color);
 }
 
-.header__nav--ico {
-  margin-left: 10px;
+// .header__nav--ico {
+//   margin-left: 10px;
+// }
+
+.header__item {
+  display: flex;
+  align-items: center;
+}
+
+.header__hover {
+  fill: var(--secondary-color);
+
+  &:focus,
+  &:hover {
+    fill: var(--main-color);
+  }
+}
+
+.header__ico {
+  margin-right: 5px;
 }
