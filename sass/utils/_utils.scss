@@ -1,0 +1,25 @@
+.header__active {
+  position: relative;
+}
+
+.is-hidden {
+  transform: scale(0%);
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  margin-top: 0;
+}

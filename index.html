@@ -66,55 +66,58 @@
               <span>X</span>
             </button>
             <h3>Zostaw swoje dane w formularzu poniżej</h3>
-            <form class="modal__formContact">
+            <form class="modal__form-contact">
               <fieldset class="modal__fieldset">
-                <label class="modal__labelForm" for="name">Imię</label>
-                <svg class="modal__iconForm">
+                <label class="modal__label-form" for="name">Imię</label>
+                <svg class="modal__icon-form">
                   <use href="./images/icons.svg#icon-people"></use>
                 </svg>
                 <input
-                  class="modal__inputForm"
+                  class="modal__input-form"
                   name="name"
                   type="text"
                   id="name"
                 />
               </fieldset>
               <fieldset class="modal__fieldset">
-                <label class="modal__labelForm" for="tel">Telefon</label>
-                <svg class="modal__iconForm">
+                <label class="modal__label-form" for="tel">Telefon</label>
+                <svg class="modal__icon-form">
                   <use href="./images/icons.svg#icon-phone-old"></use>
                 </svg>
                 <input
-                  class="modal__inputForm"
+                  class="modal__input-form"
                   name="tel"
                   type="tel"
+                  F
                   id="tel"
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
                 />
               </fieldset>
               <fieldset class="modal__fieldset">
-                <label class="modal__labelForm" for="email">E-mail</label>
-                <svg class="modal__iconForm">
+                <label class="modal__label-form" for="email">E-mail</label>
+                <svg class="modal__icon-form">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 <input
-                  class="modal__inputForm"
+                  class="modal__input-form"
                   name="email"
                   type="email"
                   id="email"
                 />
               </fieldset>
               <fieldset class="modal__fieldset-textarea">
-                <label class="modal__labelForm" for="feedback">Komentarz</label>
+                <label class="modal__label-form" for="feedback"
+                  >Komentarz</label
+                >
                 <textarea
-                  class="modal__inputFormTextarea modal__textPlaceholder"
+                  class="modal__input-form-textarea modal__text-placeholder"
                   name="feedback"
                   placeholder="Wprowadź tekst"
                   id="feedback"
                 ></textarea>
               </fieldset>
-              <fieldset class="modal__fieldsetCheckbox">
-                <label class="modal__legalCheckbox">
+              <fieldset class="modal__fieldset-checkbox">
+                <label class="modal__legal-checkbox">
                   <input
                     class="input-checkbox"
                     type="checkbox"
@@ -126,7 +129,7 @@
                     </svg>
                   </span>
 
-                  <span class="modal__txtCheckbox"
+                  <span class="modal__txt-checkbox"
                     >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
                     <a href="#">Politykę Prywatności</a>.</span
                   >
@@ -466,7 +469,7 @@
               />
             </fieldset>
             <button class="button button--footer" type="submit">
-              Zapisz się<svg class="footer__buttonIcon">
+              Zapisz się<svg class="footer__button-icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

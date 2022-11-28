@@ -1,8 +1,6 @@
 .modal {
   position: fixed;
   display: flex;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -22,7 +20,7 @@
     position: relative;
   }
 
-  &__formContact {
+  &__form-contact {
     margin-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
@@ -50,7 +48,7 @@
     }
   }
 
-  &__labelForm {
+  &__label-form {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -61,7 +59,7 @@
     left: 0px;
   }
 
-  &__iconForm {
+  &__icon-form {
     width: 12px;
     height: 12px;
     fill: var(--secondary-color);
@@ -71,7 +69,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__inputForm {
+  &__input-form {
     border: 0;
     background-color: var(--third-color);
     font-size: 16px;
@@ -83,7 +81,7 @@
     }
   }
 
-  &__inputFormTextarea {
+  &__input-form-textarea {
     border: 0;
     background-color: var(--third-color);
     font-size: 16px;
@@ -96,7 +94,7 @@
     }
   }
 
-  &__textPlaceholder {
+  &__text-placeholder {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -105,14 +103,14 @@
     color: rgba(117, 117, 117, 0.5);
   }
 
-  &__fieldsetCheckbox {
+  &__fieldset-checkbox {
     border: 0;
     margin-bottom: 10px;
     padding-right: 0px;
     padding-left: 25px;
   }
 
-  &__txtCheckbox {
+  &__txt-checkbox {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -132,7 +130,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__legalCheckbox {
+  &__legal-checkbox {
     cursor: pointer;
   }
 
@@ -152,11 +150,11 @@
     }
   }
 
-  &__txtCheckbox a {
+  &__txt-checkbox a {
     color: var(--main-color);
   }
 
-  &__legalCheckbox &__checkmark {
+  &__legal-checkbox &__checkmark {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -167,7 +165,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__legalCheckbox input {
+  &__legal-checkbox input {
     position: absolute;
     cursor: pointer;
     width: 0;
