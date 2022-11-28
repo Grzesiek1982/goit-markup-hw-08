@@ -15,19 +15,9 @@
     list-style: none;
   }
 
-  &__ico {
+  &__item {
     fill: #afb1b8;
     cursor: pointer;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-      fill: var(--main-color);
-    }
-  }
-
-  &__border {
     box-sizing: border-box;
     width: 170px;
     height: 92px;
@@ -35,17 +25,18 @@
     top: 2493px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
     transition-property: border;
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
       border: 1px solid var(--main-color);
+      fill: var(--main-color);
     }
   }
 }

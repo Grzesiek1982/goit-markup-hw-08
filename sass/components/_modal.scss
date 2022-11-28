@@ -175,12 +175,3 @@
     opacity: 0;
   }
 }
-
-.is-hidden {
-  transform: scale(0%);
-}
-
-input:checked + .modal__checkmark {
-  background-color: var(--main-color);
-  border: 0;
-}
