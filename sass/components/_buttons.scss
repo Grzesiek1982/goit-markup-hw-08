@@ -13,9 +13,7 @@
   cursor: pointer;
   border: 0px;
   transition-duration: 250ms;
-  transition-property: background-color;
-  transition-property: color;
-
+  transition-property: background-color, color, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus,
@@ -32,9 +30,7 @@
   color: var(--secondary-color);
   box-shadow: none;
   padding: 6px 22px;
-  transition-property: background-color;
-  transition-property: color;
-  transition-property: box-shadow;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
 
   &:focus,
