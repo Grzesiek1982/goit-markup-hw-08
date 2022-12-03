@@ -1,5 +1,5 @@
 .clients {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -8,9 +8,10 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 0;
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     list-style: none;
   }
@@ -19,7 +20,7 @@
     fill: #afb1b8;
     cursor: pointer;
     box-sizing: border-box;
-    width: 170px;
+    width: 100%;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -35,6 +36,37 @@
     &:focus {
       border: 1px solid var(--main-color);
       fill: var(--main-color);
+    }
+  }
+}
+
+@media (min-width: $mobile) {
+  .clients {
+    &__item {
+      width: 45%;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .clients {
+    &__item {
+      width: 29%;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .clients {
+    width: 1200px;
+
+    &__list {
+      width: 1200px;
+      flex-wrap: nowrap;
+    }
+
+    &__item {
+      width: 170px;
     }
   }
 }
