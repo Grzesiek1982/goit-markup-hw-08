@@ -42,14 +42,20 @@
 
 @media (min-width: $mobile) {
   .clients {
+    &__list {
+      max-width: 768px;
+    }
     &__item {
-      width: 45%;
+      width: 100%;
     }
   }
 }
 
 @media (min-width: $tablet) {
   .clients {
+    &__list {
+      max-width: 1200px;
+    }
     &__item {
       width: 29%;
     }
@@ -58,15 +64,9 @@
 
 @media (min-width: $desktop) {
   .clients {
-    width: 1200px;
-
     &__list {
       width: 1200px;
       flex-wrap: nowrap;
-    }
-
-    &__item {
-      width: 170px;
     }
   }
 }

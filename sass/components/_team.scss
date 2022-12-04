@@ -76,6 +76,30 @@
       background-color: var(--main-color);
     }
   }
+
+  &__retina--01 {
+    width: 100%;
+    background-image: url(/images/photo_team_01_270x260.jpg);
+    background-size: 270px 260px;
+  }
+
+  &__retina--02 {
+    width: 100%;
+    background-image: url(/images/photo_team_02_270x260.jpg);
+    background-size: 270px 260px;
+  }
+
+  &__retina--03 {
+    width: 100%;
+    background-image: url(/images/photo_team_03_270x260.jpg);
+    background-size: 270px 260px;
+  }
+
+  &__retina--04 {
+    width: 100%;
+    background-image: url(/images/photo_team_04_270x260.jpg);
+    background-size: 270px 260px;
+  }
 }
 
 @media (min-width: $mobile) {
@@ -96,8 +120,36 @@
 
 @media (min-width: $desktop) {
   .team {
+    &__item {
+      width: 100%;
+      max-width: 270px;
+    }
+
     &__list {
+      flex-wrap: nowrap;
       width: 1200px;
+    }
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .team {
+    &__retina--01 {
+      background-image: url(/images/photo_team_01_540x520.jpg);
+    }
+
+    &__retina--02 {
+      background-image: url(/images/photo_team_02_540x520.jpg);
+    }
+
+    &__retina--03 {
+      background-image: url(/images/photo_team_03_540x520.jpg);
+    }
+
+    &__retina--04 {
+      background-image: url(/images/photo_team_04_540x520.jpg);
     }
   }
 }

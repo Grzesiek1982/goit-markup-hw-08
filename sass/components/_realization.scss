@@ -2,18 +2,6 @@
   display: none;
 }
 
-@media (min-width: $mobile) {
-  .realization {
-    display: none;
-  }
-}
-
-@media (min-width: $tablet) {
-  .realization {
-    display: none;
-  }
-}
-
 @media (min-width: $desktop) {
   .realization {
     width: 1200px;
