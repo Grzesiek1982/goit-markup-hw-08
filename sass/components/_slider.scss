@@ -3,7 +3,8 @@
     url(../images/bg_slider_1600x600.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 400px;
+  background-size: cover;
   width: 100%;
   display: flex;
   align-items: center;
@@ -37,13 +38,11 @@
   }
 }
 
-@media (min-width: $mobile) {
-  .slider {
-    // width: 100%;
-    max-width: 768px;
-    background-size: cover;
-  }
-}
+// @media (min-width: $mobile) {
+//   .slider {
+//     background-size: cover;
+//   }
+// }
 
 @media (min-width: $tablet) {
   .slider {
@@ -53,6 +52,6 @@
 
 @media (min-width: $desktop) {
   .slider {
-    max-width: 1200px;
+    height: 600px;
   }
 }

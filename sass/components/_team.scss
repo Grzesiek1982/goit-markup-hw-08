@@ -106,6 +106,7 @@
   .team {
     &__item {
       width: 100%;
+      // max-width: 450px;
     }
   }
 }
@@ -113,7 +114,13 @@
 @media (min-width: $tablet) {
   .team {
     &__item {
-      width: 47%;
+      width: 100%;
+      max-width: 325px;
+    }
+
+    &__list {
+      width: 100%;
+      max-width: 738px;
     }
   }
 }
@@ -127,7 +134,8 @@
 
     &__list {
       flex-wrap: nowrap;
-      width: 1200px;
+      max-width: 1200px;
+      width: 100%;
     }
   }
 }
