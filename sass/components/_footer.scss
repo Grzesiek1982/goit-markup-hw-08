@@ -109,6 +109,34 @@
   }
 }
 
+@media (min-width: $tablet) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    &__wraper {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      gap: 50px;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    &__zzz {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  // .aaa {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+}
+
 // @media (min-width: $desktop) {
 //   .footer {
 //     &__fieldset {

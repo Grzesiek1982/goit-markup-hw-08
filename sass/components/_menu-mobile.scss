@@ -57,7 +57,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -75,7 +74,7 @@
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
+  fill: var(--main-color);
 }
 
 .menu-container {
@@ -85,9 +84,8 @@
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
+  background-color: #ffffff;
   z-index: 999;
-
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -112,6 +110,48 @@
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #fff;
+  color: var(--secondary-color);
   text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+.mobile-menu-list-phone {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  color: var(--main-color);
+
+  /* identical to box height */
+  letter-spacing: 0.02em;
+}
+
+.mobile-menu-list-email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-menu-social {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.mobile-menu-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.mobile-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

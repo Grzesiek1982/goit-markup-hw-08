@@ -99,6 +99,7 @@
     &__item {
       display: flex;
       align-items: center;
+      gap: 50px;
     }
 
     &__hover {
@@ -135,19 +136,6 @@
       margin: 0 auto;
     }
 
-    // &__menu-left {
-    //   list-style: none;
-    //   display: flex;
-    //   gap: 50px;
-    //   font-style: normal;
-    //   font-weight: 500;
-    //   font-size: 14px;
-    //   line-height: 16px;
-    //   letter-spacing: 0.02em;
-    //   align-items: center;
-    //   color: var(--secondary-color);
-    // }
-
     &__menu-right {
       flex-direction: row;
       display: flex;
@@ -170,7 +158,7 @@
     }
 
     &__ico {
-      margin-right: 5px;
+      margin-right: 8px;
     }
 
     &__contact {

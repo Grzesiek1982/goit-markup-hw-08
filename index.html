@@ -150,58 +150,7 @@
           </div>
         </div>
       </div>
-      <!-- <section class="offer">
-        <ul class="offer__list">
-          <li class="offer__box">
-            <div>
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
-            </div>
-            <h4 class="offer__header">LOREM IPSUM</h4>
-            <p class="offer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li class="offer__box">
-            <div>
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
-            </div>
-            <h4 class="offer__header">LOREM IPSUM</h4>
-            <p class="offer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li class="offer__box">
-            <div>
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-diagram"></use>
-              </svg>
-            </div>
-            <h4 class="offer__header">LOREM IPSUM</h4>
-            <p class="offer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li class="offer__box">
-            <div>
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-            <h4 class="offer__header">LOREM IPSUM</h4>
-            <p class="offer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </section> -->
+
       <section class="offer">
         <div class="offer__wraper">
           <ul class="offer__list">
@@ -471,28 +420,45 @@
       </section>
     </main>
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
+      <section class="mobile-wraper">
+        <button class="menu-toggle js-close-menu">
+          <svg width="19" height="19">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
-      <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-      </ul>
-      <div>text</div>
+        <div>
+          <ul class="mobile-menu">
+            <li><a href="./_index copy.html" class="link">Agencja</a></li>
+            <li><a href="./portfolio.html" class="link">Porfolio</a></li>
+            <li><a href="" class="link">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mobile-menu-list">
+            <li>
+              <a class="mobile-menu-list-phone" href="tel:+48 111 111 111"
+                >+48 111 111 111</a
+              >
+            </li>
+            <li>
+              <a class="mobile-menu-list-email" href="mailto:info@example.com">
+                info@example.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a class="mobile-menu-social" href="#"> Instagram</a>
+          |
+          <a class="mobile-menu-social" href="#"> Facebook</a>
+          |
+          <a class="mobile-menu-social" href="#"> Twitter</a>
+          |
+          <a class="mobile-menu-social" href="#"> LinkedIn</a>
+          |
+        </div>
+      </section>
     </div>
 
     <script
@@ -503,7 +469,7 @@
     ></script>
     <script defer src="./js/mobile-menu.js"></script>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div>
         <div class="footer__wraper">
           <div class="logo" href="./index.html">
@@ -570,7 +536,79 @@
           </form>
         </div>
       </div>
+    </footer> -->
+
+    <footer class="footer">
+      <div>
+        <div class="footer__wraper">
+          <div class="logo" href="./index.html">
+            <div>Web</div>
+            <div class="logo logo--footer">Studio</div>
+          </div>
+          <address class="footer__address">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <ul class="footer__contact">
+            <li>
+              <a class="footer__contact" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer__contact" href="tel:+48 111 111 111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__wraper">
+          <span class="footer__header"> Dołącz do nas </span>
+          <ul class="footer__social">
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="footer__icon">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="footer__wraper">
+          <span class="footer__header"> Zapisz się do newslettera </span>
+          <form class="footer__form">
+            <fieldset class="footer__fieldset">
+              <input
+                class="footer__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </fieldset>
+            <button class="button button--footer" type="submit">
+              Zapisz się<svg class="footer__button-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
