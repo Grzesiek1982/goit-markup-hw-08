@@ -154,7 +154,7 @@
       <section class="offer">
         <div class="offer__wraper">
           <ul class="offer__list">
-            <li class="offer_item">
+            <li class="offer__item">
               <div class="offer__box">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
@@ -166,7 +166,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="offer_item">
+            <li class="offer__item">
               <div class="offer__box">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
@@ -178,7 +178,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="offer_item">
+            <li class="offer__item">
               <div class="offer__box">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
@@ -190,7 +190,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="offer_item">
+            <li class="offer__item">
               <div class="offer__box">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
@@ -455,7 +455,6 @@
           <a class="mobile-menu-social" href="#"> Twitter</a>
           |
           <a class="mobile-menu-social" href="#"> LinkedIn</a>
-          |
         </div>
       </section>
     </div>
@@ -469,75 +468,6 @@
     <script defer src="./js/mobile-menu.js"></script>
 
     <!-- <footer class="footer">
-      <div>
-        <div class="footer__wraper">
-          <div class="logo" href="./index.html">
-            <div>Web</div>
-            <div class="logo logo--footer">Studio</div>
-          </div>
-          <address class="footer__address">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </address>
-          <ul class="footer__contact">
-            <li>
-              <a class="footer__contact" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer__contact" href="tel:+48 111 111 111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="footer__wraper">
-          <span class="footer__header"> Dołącz do nas </span>
-          <ul class="footer__social">
-            <li class="footer__icon">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </li>
-            <li class="footer__icon">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </li>
-            <li class="footer__icon">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </li>
-            <li class="footer__icon">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__wraper">
-          <span class="footer__header"> Zapisz się do newslettera </span>
-          <form class="footer__form">
-            <fieldset class="footer__fieldset">
-              <input
-                class="footer__input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
-            </fieldset>
-            <button class="button button--footer" type="submit">
-              Zapisz się<svg class="footer__button-icon">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-    </footer> -->
-
-    <footer class="footer">
       <div class="footer_box">
         <div class="footer__wraper">
           <div class="logo" href="./index.html">
@@ -606,8 +536,79 @@
           </form>
         </div>
       </div>
+    </footer> -->
+    <footer class="footer">
+      <div class="footer__wraper">
+        <div class="footer__left">
+          <div class="footer__contact">
+            <div class="logo" href="./index.html">
+              <div>Web</div>
+              <div class="logo logo--footer">Studio</div>
+            </div>
+            <div>
+              <address class="footer__address">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </address>
+              <ul class="footer__contact">
+                <li>
+                  <a class="footer__contact" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__contact" href="tel:+48 111 111 111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__join">
+            <span class="footer__header"> Dołącz do nas </span>
+            <ul class="footer__social">
+              <li class="footer__icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </li>
+              <li class="footer__icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </li>
+              <li class="footer__icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </li>
+              <li class="footer__icon">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__newsletter">
+          <span class="footer__header"> Zapisz się do newslettera </span>
+          <form class="footer__form">
+            <fieldset class="footer__fieldset">
+              <input
+                class="footer__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </fieldset>
+            <button class="button button--footer" type="submit">
+              Zapisz się<svg class="footer__button-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
     </footer>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>

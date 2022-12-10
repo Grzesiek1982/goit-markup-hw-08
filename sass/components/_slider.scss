@@ -22,6 +22,14 @@
       url(../images/bg_slider_1600x600.jpg);
     background-size: 1600px 600px;
   }
+
+  @media (min-width: $tablet) {
+    max-width: 1200px;
+  }
+
+  @media (min-width: $desktop) {
+    height: 600px;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -35,23 +43,5 @@
         ),
         url(../images/bg_slider_3200x1200.jpg);
     }
-  }
-}
-
-// @media (min-width: $mobile) {
-//   .slider {
-//     background-size: cover;
-//   }
-// }
-
-@media (min-width: $tablet) {
-  .slider {
-    max-width: 1200px;
-  }
-}
-
-@media (min-width: $desktop) {
-  .slider {
-    height: 600px;
   }
 }

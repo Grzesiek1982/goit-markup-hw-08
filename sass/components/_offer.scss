@@ -1,5 +1,4 @@
 .offer {
-  width: 100%;
   margin: 0 auto;
 
   &__wraper {
@@ -38,7 +37,6 @@
     margin-bottom: 30px;
     border-radius: 4px;
     align-items: center;
-    padding: 25px 100px;
   }
 
   &__list {
@@ -48,57 +46,38 @@
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 0 25px;
+    row-gap: 30px;
+    padding: 0 15px;
     margin-inline: auto;
     margin: 70px auto;
-  }
 
-  &_item {
-    width: 100%;
-  }
-}
-
-@media (min-width: $mobile) {
-  .offer {
-    &__list {
-      width: 100%;
+    @media (min-width: $mobile) {
       max-width: 450px;
+      padding: 0;
     }
 
-    &_item {
-      width: 100%;
-      max-width: 768px;
-    }
-  }
-}
-
-@media (min-width: $tablet) {
-  .offer {
-    &__list {
-      width: 100%;
+    @media (min-width: $tablet) {
       max-width: 738px;
     }
 
-    &_item {
-      width: 100%;
-      max-width: 320px;
-    }
-  }
-}
-
-@media (min-width: $desktop) {
-  .offer {
-    // width: 1200px;
-
-    &__list {
-      flex-wrap: nowrap;
-      padding: 0;
+    @media (min-width: $desktop) {
       max-width: 1200px;
     }
+  }
 
-    &__item {
-      width: 1200px;
+  &__item {
+    width: 100%;
+
+    @media (min-width: $mobile) {
+      max-width: 450px;
+    }
+
+    @media (min-width: $tablet) {
+      max-width: 354px;
+    }
+
+    @media (min-width: $desktop) {
+      max-width: 270px;
     }
   }
 }
