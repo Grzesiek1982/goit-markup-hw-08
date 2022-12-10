@@ -2,7 +2,6 @@
   width: 1200px;
   display: none;
   margin: 0 auto;
-  padding-top: 94px;
   padding-bottom: 94px;
   margin-bottom: 0;
 
@@ -35,11 +34,16 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8) 0;
     position: absolute;
-    bottom: 4px;
+    bottom: 0;
     padding: 27px 90px;
   }
 
   &__item {
     position: relative;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
   }
 }

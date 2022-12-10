@@ -69,6 +69,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     padding: 0;
+
+    @media (min-width: $desktop) {
+      align-items: flex-start;
+    }
   }
 
   &__address {
@@ -136,7 +140,11 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     width: 100%;
-    max-width: 450px;
+    max-width: 300px;
+
+    @media (min-width: $mobile) {
+      max-width: 400px;
+    }
   }
 
   &__input {

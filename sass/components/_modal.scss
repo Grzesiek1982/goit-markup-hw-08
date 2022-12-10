@@ -8,8 +8,7 @@
   transition: transform 0.25s;
 
   &__box {
-    width: 90%;
-    height: 80%;
+    width: 100%;
 
     background-color: #ffffff;
     margin: auto;
@@ -23,14 +22,12 @@
 
     @media (min-width: $mobile) {
       max-width: 430px;
-      height: 77%;
     }
 
     @media (min-width: $tablet) {
       width: 528px;
       max-width: 528px;
       padding: 0;
-      height: 73%;
     }
 
     @media (min-width: $desktop) {

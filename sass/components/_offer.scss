@@ -4,6 +4,8 @@
   &__wraper {
     display: flex;
     justify-content: center;
+    margin-bottom: 94px;
+    margin-top: 94px;
   }
 
   &__header {
@@ -49,7 +51,6 @@
     row-gap: 30px;
     padding: 0 15px;
     margin-inline: auto;
-    margin: 70px auto;
 
     @media (min-width: $mobile) {
       max-width: 450px;
