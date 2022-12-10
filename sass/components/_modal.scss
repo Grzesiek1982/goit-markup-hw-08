@@ -187,12 +187,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media (min-width: $tablet) {
-      left: 26px;
+    @media (min-width: $mobile) {
+      left: 25px;
     }
 
-    @media (min-width: $desktop) {
-      left: 41px;
+    @media (min-width: $tablet) {
+      left: 40px;
     }
   }
 
